@@ -1,0 +1,56 @@
+
+body{
+    background-color: gray;
+}
+
+.container{ text-align: center;
+    background:linear-gradient(grey, blue, rgb(34,34,34));
+    padding: 15px;
+    border-radius: 400px;
+    width: 400px;
+    margin: auto;
+    margin-top: 50px;
+
+
+}
+
+button{
+    
+    position:static;
+    background-color:blue;
+    color: white;
+    font-size: 20pt;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: 0ch;
+    border-radius: 15px;
+    transition: 0.3s all;
+
+}
+
+button:hover{
+    background-color:darkblue;    
+}
+
+h2{
+
+    color: white;
+
+    }
+
+h3{color:white}
+
+#bola{
+    display: flex;
+    margin: auto;
+    margin-top: 10px;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+
+}
+
+select{
+    border-radius: 10px;;
+}
+
